@@ -16,6 +16,11 @@ body {
   display: none;
 }
 
+#app {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .title {
   font-size: 4rem;
   text-align: center;
@@ -58,6 +63,8 @@ button:disabled {
 
 .question-btn {
   box-shadow: 5px 5px 10px rgb(220, 220, 220);
+  font-size: 1.5rem;
+  font-weight: 200;
 }
 
 button:hover {
@@ -80,14 +87,17 @@ button:hover {
   filter: brightness(90%);
 }
 
+#buttons {
+  display: flex;
+  gap: 8px;
+}
+
 .footer-btn {
-  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 1rem 1.5rem;
 }
 
 .footer-btn:hover {
   cursor: pointer;
-}
-
-#solution {
-  margin-right: 0.5rem;
 }
